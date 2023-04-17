@@ -53,8 +53,9 @@ header a {
 
 .search {
     margin-left: 20px;
-    margin-top: 3px;
+    margin-top: 5px;
     cursor: pointer;
+    transition: all .2s;
 }
 
 
@@ -97,6 +98,14 @@ header a:hover {
     background: rgba(255,255,255, 0.5);
     padding: 5px 20px;
     border-radius: 30px;
+}
+
+.search:hover {
+    color: rgba(215, 35, 0, 0.8);
+    background: rgba(255,255,255, 0.5);
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin-top: 0px;
 }
 
 header a:active {
